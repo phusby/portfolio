@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	position: relative;
+}
+body {
+	background-image: url(../../minhjemmeside/lysegraao.jpg);
+}
+#baggrund { 
+border-bottom: 55px solid;
+}
+#wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100%;
+	
+}
+#top {
+	width: 100%;
+	background-color: rgba(0,0,0,0.75);
+	display: flex;
+	position: fixed;
+	
+	
+	
+}
+#align {
+	max-width: 1060px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+#sorttop {
+	background-color: rgba(0,0,0,1.00);
+	width:100%;
+	height: 74px; 
+}
+
+#menu {
+	width:58%;	
+}
+#logo {
+	width: 40%;
+	text-align: center;
+	font-family: "Gloria Hallelujah", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: rgba(236,233,233,1.00);
+	font-size: 0.7em;
+	
+}
+
+#logo a {
+	color: #FFFFFF;
+    text-decoration: none;
+	letter-spacing: 1px;
+	
+}
+
+#menu li {
+	list-style: none;
+	margin:0;
+	padding:0;
+	display: inline;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1em; 
+	letter-spacing: 2px;
+}
+#menu a {
+	text-decoration: none;
+	color: #FFFFFF;
+	float: right;
+	margin: 0px 10px 0px 10px;
+	margin-top: 12px;
+	font-weight: 300;
+	margin-bottom: 12px;
+	
+	
+}
+#menu a:hover { 
+	text-shadow: 5px 2px 20px rgba(255,255,255,1.00);
+}
+#menu a.selected {
+	border-bottom: solid 1px;
+	text-shadow: none;
+}
+#logoet {
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 15%;
+	float: left;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-left: 30px;
+	height:60px;
+}
+
+#indholdsbox {
+	width: 100%;
+}
+	
+#indhold {
+	height: 350px;
+	width: 100%;
+	background-image: url(../../minhjemmeside/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	
+}
+#sortmidt {
+	width: 100%;
+	height: 25px;
+	background-color: #000000;
+}
+#indhold2 {
+	
+	width: 100%;
+	padding-bottom: 100px;
+}
+footer {
+	position: fixed;
+  	right: 0;
+ 	bottom: 0;
+ 	left: 0;
+	padding: 2px;
+	background-color: rgba(0,0,0,0.75);
+  	text-align: center;
+	color: rgba(255,255,255,1.00);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 300;
+}
+#indhold h1 {
+	text-align: center;
+	margin-top: 150px;
+	font-size: 50px;
+	color: rgba(27,27,27,1.00);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 400;
+	max-width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#velkommen {
+	border-bottom: 2px solid;
+	max-width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#velkommen h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	margin-bottom: 0px;
+	
+}
+#velkommen h2 {
+	font-family: "Gloria Hallelujah", Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#indhold2 p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 1.2em;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	max-width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#indhold3 {
+	width:100%;
+	margin-bottom: 70px;
+	display:flex;
+	max-width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+#box1 {
+	width:33.3%;
+	margin-right: 10px;
+	
+}
+#box2 {
+	width:33.3%;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+	
+}
+#box3 {
+	width:33.3%;
+	margin-left: 10px;
+}
+#indhold3 #box3 img {
+	box-shadow: 2px 2px 30px 2px #353535;
+}
+#indhold3 #box2 img {
+	box-shadow: 2px 2px 30px 2px #353535;
+}
+#indhold3 #box1 img {
+	box-shadow: 2px 2px 30px 2px #353535;
+}
+/*nu starter om mig sektionen*/
+
+#ommigindhold2 {
+	width: 100%;
+	max-width: 1060px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#billedeafmig {
+	width: 47%;
+	float: left;
+	margin: 30px 10px 30px 20px;
+}
+#text {
+	width:47%;
+	float:right;
+	margin: 30px 10px 30px 20px;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+#text h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 400;
+	border-bottom: solid 2px;
+	margin-top:0;
+	padding-bottom: 10px
+}
+#text p {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 400;
+}
+#text h3 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 400;
+	
+}
+/*her starter kontakt siden*/
+
+#kontaktindhold2 {
+	max-width: 1060px;
+	width: 100%;
+	display: flex;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	
+}
+#kontaktbillede1 {
+	width: 50%;
+	
+}
+#kontaktbillede1 img {
+	float: right
+}
+#kontaktbillede2 {
+	width: 50%;
+}
+/*her starter projekt siden*/
+
+.projektindhold2 {
+	max-width: 1060px;
+	width: 100%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+.projekt {
+	width:49%;
+	margin: 30px 10px 30px 20px;
+}
+.projekt img {
+	box-shadow: 2px 2px 30px 2px #353535;
+}
+.projekttext {
+	width:49%;
+	margin: 30px 10px 30px 20px;
+	letter-spacing: 1px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	line-height: 1.2;
+}
+.projektindhold2 h1 {
+	border-bottom: 2px solid;
+}
+
